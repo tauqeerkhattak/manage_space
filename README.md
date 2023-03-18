@@ -19,7 +19,7 @@ To use this plugin, you have to add a new key in application tag of AndroidManif
 
 Then, you can directly call a static method called isFromManageSpaceEvent which returns true if application is opened by pressing clear data button.
 ```
-bool isOpenedByClearData = await isFromManageSpaceEvent();
+bool isOpenedByClearData = await ManageSpace.isFromManageSpaceEvent();
 ```
 
 Ideally, this method should be called in splash screen and appropriate UI should be opened to clear user selected data.
