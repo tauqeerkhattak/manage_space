@@ -1,7 +1,7 @@
 name: manage_space
 description: A new Flutter plugin to open a Flutter widget on clicking clear data button on Android.
 version: 0.0.1
-homepage:
+homepage: https://github.com/tauqeerkhattak/manage_space.git
 
 environment:
   sdk: '>=2.19.4 <3.0.0'
